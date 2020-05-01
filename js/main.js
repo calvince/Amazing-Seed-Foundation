@@ -5,9 +5,9 @@
   $(window).scroll(function() {
     // condition statement
     if($(window).scrollTop > 0){
-      $("").addClass("stickyNav");
+      $("#main-navbar").addClass("stickyNav");
     }else{
-      $(".header").removeClass("stickyNav")
+      $("#main-navbar").removeClass("stickyNav")
     }
   });
 

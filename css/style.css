@@ -389,6 +389,20 @@ textarea.input {
 	NAVGATION
 ===========================================================*/
 
+
+.stickyNav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: aqua;
+
+}
+.main-nav.stickyNav ul li a{
+  padding: 10px 25px;
+  font-size: 14px;
+}
+
 #main-navbar {
   position: absolute;
   left: 0;
