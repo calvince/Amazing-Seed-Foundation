@@ -1,5 +1,16 @@
-(function($) {
+(function($) { //document ready
   "use strict"
+
+  // Fixed sticky header when scrolling 
+  $(window).scroll(function() {
+    // condition statement
+    if($(window).scrollTop > 0){
+      $("").addClass("stickyNav");
+    }else{
+      $(".header").removeClass("stickyNav")
+    }
+  });
+
 
   // Mobile Nav button toggle
   $('.navbar-toggle-btn').on('click', function() {
@@ -14,8 +25,8 @@
   // Loader effect
   $(document).ready(function () {
     //Loader
-    $("#Loader").fadeOut(2000);
-  $("#head").addClass("onLoad").fadeIn(3000);
+    $("#Loader").fadeOut(3000);
+  $("#head").addClass("onLoad").fadeIn(4000);
   $("html, body").scrollTop(0);
   });
 
