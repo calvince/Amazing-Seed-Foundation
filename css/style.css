@@ -1696,7 +1696,7 @@ textarea.input {
 }
 
 .owl-theme .owl-nav [class*='owl-']:hover {
-  background: #83ba09;
+  background:  rgb(255, 153, 58);
 }
 
 /*----------------------------*\
@@ -1711,12 +1711,16 @@ textarea.input {
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-  border-color: #83ba09;
-  background: #83ba09;
+  border-color: rgb(255, 153, 58);
+  background:rgb(255, 153, 58);
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
   width: 20px;
-  border-color: #83ba09;
-  background: #83ba09;
+  border-color: rgb(255, 153, 58);
+  background: rgb(255, 153, 58);
+}
+
+#kenya  a  img{
+  margin: 10px;
 }
